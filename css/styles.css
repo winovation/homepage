@@ -2,6 +2,7 @@
 @import "font.css";
 @import "variables.css";
 @import "components/header_menu.css";
+@import "components/header.css";
 
 html {
   font-size: 62.5%;
