@@ -36,6 +36,12 @@
   font-weight: 500;
 }
 
+.header__menu__list a:hover {
+  opacity: 0.9;
+  transform: scale(0.9);
+  color: var(--main-color);
+}
+
 .header__menu__login {
   display: flex;
   flex-direction: row;
@@ -46,6 +52,11 @@
   margin-right: 6rem;
   width: 10rem;
   height: 50%;
+}
+
+.header__menu__login:hover {
+  opacity: 0.9;
+  transform: scale(0.9);
 }
 
 .header__menu__login a {
