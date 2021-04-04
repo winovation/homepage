@@ -49,6 +49,11 @@
   box-shadow: var(--box-shadow);
 }
 
+.section__grid__card img:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+
 .section__grid__card-image img {
   width: 100%;
   height: auto;
@@ -56,6 +61,11 @@
   background-color: #fff;
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
+}
+
+.section__grid__card-image img:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
 }
 
 .section__grid__card h2 {

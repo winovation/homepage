@@ -2,6 +2,7 @@
 <html lang="ko">
   <head>
     <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
@@ -24,7 +25,7 @@
         </div>
       </div>
       <div class="header">
-        <div class="header__text">
+        <div class="header__text" data-aos="fade-up">
           <p>WINOVATION DENPIC</p>
           <h1>The Best Daily Dental Care Solution</h1>
           <p>
@@ -32,11 +33,19 @@
             매일 구강 사진을 찍고 시간에 따른 변화를 확인해보세요.
           </p>
           <div class="header__text__btn">
-            <a href="#">자세히 보기&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp></a>
+            <a href="product.html" data-aos="fade-up"
+              >자세히 보기
+              <i class="fas fa-chevron-right"></i>
+            </a>
           </div>
         </div>
         <div class="header__image">
-          <img src="img/header_app.png" />
+          <img
+            src="img/header_app.png"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+            data-aos-delay="600"
+          />
         </div>
       </div>
     </header>
@@ -55,12 +64,16 @@
           </p>
         </div>
         <div class="section__grid">
-          <div class="section__grid__card">
+          <div class="section__grid__card" data-aos="fade-up">
             <img src="img/feature1.png" />
             <h2>전악 촬영</h2>
             <p>사용자 편의성을 고려하여 손쉽게 구강내 전악 촬영 가능</p>
           </div>
-          <div class="section__grid__card">
+          <div
+            class="section__grid__card"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             <img src="img/feature2.png" />
             <h2>셀프 촬영</h2>
             <p>
@@ -68,7 +81,11 @@
               분석해 제공함
             </p>
           </div>
-          <div class="section__grid__card">
+          <div
+            class="section__grid__card"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
             <img src="img/feature3.png" />
             <h2>일관성</h2>
             <p>일관성 있는 데이터를 획득해 지속적으로 분석 정확도를 향상시킴</p>
@@ -76,7 +93,7 @@
         </div>
       </section>
       <section class="section__overlay">
-        <div class="section__video">
+        <div class="section__video" data-aos="fade-up" data-aos-duration="1200">
           <video controls poster="video/pr.png" width="100%" height="40%">
             <source src="video/pr.mp4" type="video/mp4" />
             <strong>Your browser does not support the video tag.</strong>
@@ -85,13 +102,21 @@
       </section>
       <section class="section-light">
         <div class="section__grid">
-          <div class="section__grid__card-image">
+          <div class="section__grid__card-image" data-aos="fade-up">
             <img src="img/expert1.png" />
           </div>
-          <div class="section__grid__card-image">
+          <div
+            class="section__grid__card-image"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             <img src="img/expert2.png" />
           </div>
-          <div class="section__grid__card-image">
+          <div
+            class="section__grid__card-image"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
             <img src="img/expert3.png" />
           </div>
         </div>
@@ -142,5 +167,9 @@
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
