@@ -1,10 +1,15 @@
-.section__dark {
+.section-dark {
   background-color: #f5f8fa;
+  padding: 10rem 0 40rem 0;
+}
+
+.section-light {
+  padding: 10rem 0 10rem 0;
 }
 
 .section__top {
   width: 40%;
-  padding: 12rem 6rem;
+  padding: 0rem 6rem 12rem;
 }
 
 .section__top h1 {
@@ -53,4 +58,19 @@
   margin-bottom: 1.5rem;
   font-size: 1.6em;
   color: var(--gray3);
+}
+
+.section__overlay {
+  position: relative;
+  width: 60%;
+  top: -24rem;
+  left: 20%;
+}
+
+.section__video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-shadow: var(--box-shadow);
 }
