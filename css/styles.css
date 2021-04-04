@@ -5,6 +5,7 @@
 @import "components/header.css";
 @import "components/section.css";
 @import "components/contact.css";
+@import "components/footer.css";
 
 html {
   font-size: 62.5%;
