@@ -12,6 +12,10 @@
   padding: 0rem 6rem 12rem;
 }
 
+.section__top--100 {
+  width: 100%;
+}
+
 .section__top h1 {
   margin-bottom: 1.5rem;
   font-size: 3.2rem;
@@ -25,10 +29,33 @@
   color: var(--gray3);
 }
 
+.section__top--color {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--main-color);
+}
+
+.section__top--color h6 {
+  margin-bottom: 1.5rem;
+  font-size: 1.6em;
+  color: var(--main-color);
+}
+
 .section__grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, 28rem);
   justify-content: space-between;
+  align-items: center;
+  padding: 0rem 6rem;
+}
+
+.section__grid--4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 24rem);
+  justify-content: space-between;
+  align-items: center;
   padding: 0rem 6rem;
 }
 
