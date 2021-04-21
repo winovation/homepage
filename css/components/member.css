@@ -22,9 +22,6 @@
   width: 80%;
   height: auto;
   margin-bottom: 4rem;
-  background-color: #fff;
-  border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow);
 }
 
 .member__text__row {
