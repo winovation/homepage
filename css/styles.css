@@ -8,6 +8,7 @@
 @import "components/footer.css";
 @import "components/member.css";
 @import "components/timeline.css";
+@import "components/map.css";
 
 html {
   font-size: 62.5%;
