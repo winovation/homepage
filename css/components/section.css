@@ -86,6 +86,13 @@
   object-fit: cover;
 }
 
+.section__image__height--4rem img {
+  width: auto;
+  height: 4rem;
+  object-fit: cover;
+  align-items: center;
+}
+
 .section__grid__card img:hover {
   transform: scale(1.1);
   transition-duration: 1s;
@@ -116,6 +123,11 @@
   font-size: 1.6em;
   color: var(--gray3);
   text-align: center;
+}
+
+.section__grid__card--text20rem {
+  text-align: center;
+  height: 20rem;
 }
 
 .section__grid__card--column__text {
