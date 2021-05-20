@@ -43,6 +43,13 @@
   color: var(--main-color);
 }
 
+.section__top--padding__bottom__2rem {
+  padding-bottom: 2rem;
+}
+.section__top--empty10rem {
+  height: 10rem;
+}
+
 .section__grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, 28rem);

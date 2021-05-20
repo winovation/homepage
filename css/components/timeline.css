@@ -70,3 +70,7 @@ h1.header {
 .timeline .event p {
   margin-bottom: 1rem;
 }
+
+.timeline .event h5 {
+  margin-top: 2rem;
+}
