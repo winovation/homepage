@@ -67,6 +67,10 @@
   margin-bottom: 4rem;
 }
 
+.section__grid__card--center {
+  text-align: center;
+}
+
 .section__grid__card img {
   width: 50%;
   height: auto;
