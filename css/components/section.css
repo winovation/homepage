@@ -112,6 +112,14 @@
   text-align: center;
 }
 
+.section__grid__card--column__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  color: var(--main-color);
+}
+
 .section__overlay {
   display: flex;
   justify-content: center;
