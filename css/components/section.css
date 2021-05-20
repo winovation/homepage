@@ -80,6 +80,12 @@
   box-shadow: var(--box-shadow);
 }
 
+.section__image__height--24rem img {
+  width: auto;
+  height: 24rem;
+  object-fit: cover;
+}
+
 .section__grid__card img:hover {
   transform: scale(1.1);
   transition-duration: 1s;
