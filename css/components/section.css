@@ -118,6 +118,7 @@
   justify-content: center;
   align-items: flex-start;
   color: var(--main-color);
+  height: 10rem;
 }
 
 .section__overlay {
