@@ -58,6 +58,14 @@
   padding: 0rem 6rem;
 }
 
+.section__grid--2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 48rem);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 6rem;
+}
+
 .section__grid--4 {
   display: grid;
   grid-template-columns: repeat(auto-fill, 24rem);
