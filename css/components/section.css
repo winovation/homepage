@@ -101,6 +101,13 @@
   object-fit: cover;
 }
 
+.section__image__height--16rem img {
+  width: auto;
+  height: 16rem;
+  object-fit: cover;
+  align-items: center;
+}
+
 .section__image__height--4rem img {
   width: auto;
   height: 4rem;
