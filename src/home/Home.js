@@ -3,6 +3,9 @@ import { Row, Col, Container, Button } from "react-bootstrap";
 import "./Home.css";
 import { Link } from "react-router-dom";
 import brandingProductImage from "../images/branding_product.png";
+import productFeature1 from "../images/product_feature1.png";
+import productFeature2 from "../images/product_feature2.png";
+import productFeature3 from "../images/product_feature3.png";
 
 function Home() {
   return (
@@ -51,6 +54,38 @@ function Home() {
               어디서든 자신의 치아 상태를 확인하고, 미리 치아 관련 질환들을
               예방하고, 방지하여 건강한 치아를 유지할 수 있도록 하였습니다.
             </h5>
+          </Col>
+        </Row>
+        <Row className="product-feature">
+          <Col className="product-feature__padding" lg={4}>
+            <Row>
+              <img src={productFeature1} alt=""></img>
+              <h2>전악 촬영</h2>
+              <h5>
+                사용자 편의성을 고려하여 손쉽게 구강내 전악 촬영 가능하여
+                전체치아 분석과 개별치아 분석이 동시에 가능함
+              </h5>
+            </Row>
+          </Col>
+          <Col className="product-feature__padding" lg={4}>
+            <Row>
+              <img src={productFeature2} alt=""></img>
+              <h2>셀프 촬영</h2>
+              <h5>
+                촬영 가이드를 제시하여 고화질의 통일성 있는 구강 사진 촬영이
+                가능하며 데이터를 실시간으로 분석하여 제공함
+              </h5>
+            </Row>
+          </Col>
+          <Col className="product-feature__padding" lg={4}>
+            <Row>
+              <img src={productFeature3} alt=""></img>
+              <h2>일관성</h2>
+              <h5>
+                일관성 있는 데이터 획득하여 지속적으로 분석 정확도를 향상시키며
+                시간에 따른 변화를 감지하여 분석함
+              </h5>
+            </Row>
           </Col>
         </Row>
       </Container>

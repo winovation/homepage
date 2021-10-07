@@ -35,3 +35,33 @@
   color: var(--color-gray-text);
   line-height: 2rem;
 }
+
+.product-feature {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.product-feature img {
+  width: 50%;
+  height: auto;
+  margin: 0px auto;
+  margin-bottom: 40px;
+  box-shadow: var(--box-shadow);
+}
+
+.product-feature h2 {
+  margin-bottom: 24px;
+  color: var(--color-dark-text);
+  text-align: center;
+}
+
+.product-feature h5 {
+  margin-bottom: 24px;
+  color: var(--color-gray-text);
+  line-height: 2rem;
+  text-align: center;
+}
+
+.product-feature__padding {
+  padding: 120px 40px 0 40px;
+}
