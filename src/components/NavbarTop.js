@@ -11,7 +11,7 @@ function NavbarTop() {
 
   return (
     <div>
-      <Navbar ollapseOnSelect expand="lg" bg="light" variant="light">
+      <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
         <Container>
           <Navbar.Brand as={Link} to="/">
             <img
