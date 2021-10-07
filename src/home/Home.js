@@ -11,6 +11,7 @@ import prImage from "../images/pr.png";
 import expertInterview1 from "../images/expert1.png";
 import expertInterview2 from "../images/expert2.png";
 import expertInterview3 from "../images/expert3.png";
+import logoDenpic from "../images/logo_denpic.png";
 
 function Home() {
   return (
@@ -59,6 +60,9 @@ function Home() {
               언제 어디서든 자신의 치아 상태를 확인하고, 미리 치아 관련 질환들을
               예방하고, 방지하여 건강한 치아를 유지할 수 있도록 하였습니다.
             </h5>
+          </Col>
+          <Col lg={6}>
+            <img width="30%" height="auto" src={logoDenpic} alt=""></img>
           </Col>
         </Row>
         <Row className="product-feature">
