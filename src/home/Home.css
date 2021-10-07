@@ -1,0 +1,18 @@
+.text {
+  align-items: flex-start;
+  justify-content: left;
+  justify-self: left;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+h2 {
+  margin-bottom: 24px;
+  color: var(--color-dark-text);
+}
+
+h5 {
+  margin-bottom: 24px;
+  color: var(--color-gray-text);
+  line-height: 2rem;
+}
