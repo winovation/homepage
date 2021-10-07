@@ -7,7 +7,7 @@ import brandingProductImage from "../images/branding_product.png";
 function Home() {
   return (
     <div>
-      <Container>
+      <Container className="home">
         <Row>
           <Col lg={7}>
             <Row>
