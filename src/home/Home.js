@@ -11,7 +11,7 @@ function Home() {
         <Row>
           <Col lg={7}>
             <Row>
-              <div className="text">
+              <div className="branding">
                 <h5>WINOi DENPIC</h5>
                 <h2>The Best Daily Dental Care Solution</h2>
                 <h5>

@@ -1,4 +1,4 @@
-.text {
+.branding {
   align-items: flex-start;
   justify-content: left;
   justify-self: left;
@@ -6,12 +6,12 @@
   padding-bottom: 80px;
 }
 
-h2 {
+.branding h2 {
   margin-bottom: 24px;
   color: var(--color-dark-text);
 }
 
-h5 {
+.branding h5 {
   margin-bottom: 24px;
   color: var(--color-gray-text);
   line-height: 2rem;
