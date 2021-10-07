@@ -4,6 +4,7 @@ import { Route, Switch } from "react-router-dom";
 import "./components/NavbarTop.js";
 import NavbarTop from "./components/NavbarTop.js";
 import Home from "./home/Home.js";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           Support
         </Route>
       </Switch>
+      <Footer />
     </div>
   );
 }
