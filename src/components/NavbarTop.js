@@ -11,7 +11,13 @@ function NavbarTop() {
 
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+      <Navbar
+        className="nav"
+        collapseOnSelect
+        expand="lg"
+        bg="light"
+        variant="light"
+      >
         <Container>
           <Navbar.Brand as={Link} to="/">
             <img
