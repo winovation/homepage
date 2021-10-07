@@ -16,3 +16,18 @@
   color: var(--color-gray-text);
   line-height: 2rem;
 }
+
+.main-text {
+  margin-top: 48px;
+}
+
+.main-text h2 {
+  margin-bottom: 24px;
+  color: var(--color-dark-text);
+}
+
+.main-text h5 {
+  margin-bottom: 24px;
+  color: var(--color-gray-text);
+  line-height: 2rem;
+}
