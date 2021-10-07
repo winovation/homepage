@@ -1,20 +1,28 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Link, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import "./components/NavbarTop.js";
 import NavbarTop from "./components/NavbarTop.js";
-import { Row, Col, Container, Button } from "react-bootstrap";
 import Home from "./home/Home.js";
 
 function App() {
   return (
     <div className="App">
       <NavbarTop />
-      <Container>
-        <Row>
+      <Switch>
+        <Route exact path="/">
           <Home />
-        </Row>
-      </Container>
+        </Route>
+        <Route exact path="/product/">
+          Product
+        </Route>
+        <Route exact path="/about/">
+          About Us
+        </Route>
+        <Route exact path="/support/">
+          Support
+        </Route>
+      </Switch>
     </div>
   );
 }
