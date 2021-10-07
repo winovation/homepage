@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Row, Col, Container, Button } from "react-bootstrap";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -17,7 +18,12 @@ function Home() {
                   <br />
                   매일 구강 사진을 찍고 시간에 따른 변화를 확인해보세요.
                 </h5>
-                <Button variant="primary" className="btn-primary">
+                <Button
+                  variant="primary"
+                  className="btn-primary"
+                  as={Link}
+                  to="/product"
+                >
                   자세히 보기 &nbsp;&nbsp;&nbsp;&nbsp;〉
                 </Button>
               </div>
