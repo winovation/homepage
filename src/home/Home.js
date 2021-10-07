@@ -6,6 +6,8 @@ import brandingProductImage from "../images/branding_product.png";
 import productFeature1 from "../images/product_feature1.png";
 import productFeature2 from "../images/product_feature2.png";
 import productFeature3 from "../images/product_feature3.png";
+import prVideo from "../images/pr.mp4";
+import prImage from "../images/pr.png";
 
 function Home() {
   return (
@@ -87,6 +89,12 @@ function Home() {
               </h5>
             </Row>
           </Col>
+        </Row>
+        <Row className="pr-video">
+          <video controls poster={prImage} width="100%" height="40%">
+            <source src={prVideo} type="video/mp4" />
+            <strong>Your browser does not support the video tag.</strong>
+          </video>
         </Row>
       </Container>
     </div>
