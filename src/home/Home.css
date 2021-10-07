@@ -40,6 +40,10 @@
   text-align: left;
 }
 
+.main-text img {
+  margin-top: 60px;
+}
+
 .product-feature {
   margin-top: 240px;
   text-align: center;
