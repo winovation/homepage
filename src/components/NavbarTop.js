@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Navbar, Nav, Container, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./NavbarTop.css";
-import logo from "../logo.png";
+import logo from "../images/logo.png";
 import CustomModal from "./CustomModal.js";
 
 function NavbarTop() {
