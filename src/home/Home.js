@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Row, Col, Container, Button } from "react-bootstrap";
 import "./Home.css";
 import { Link } from "react-router-dom";
+import brandingProductImage from "../images/branding_product.png";
 
 function Home() {
   return (
@@ -30,7 +31,12 @@ function Home() {
             </Row>
           </Col>
           <Col lg={5}>
-            <span>123</span>
+            <img
+              width="100%"
+              height="auto"
+              src={brandingProductImage}
+              alt=""
+            ></img>
           </Col>
         </Row>
       </Container>
