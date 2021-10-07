@@ -8,6 +8,9 @@ import productFeature2 from "../images/product_feature2.png";
 import productFeature3 from "../images/product_feature3.png";
 import prVideo from "../images/pr.mp4";
 import prImage from "../images/pr.png";
+import expertInterview1 from "../images/expert1.png";
+import expertInterview2 from "../images/expert2.png";
+import expertInterview3 from "../images/expert3.png";
 
 function Home() {
   return (
@@ -95,6 +98,23 @@ function Home() {
             <source src={prVideo} type="video/mp4" />
             <strong>Your browser does not support the video tag.</strong>
           </video>
+        </Row>
+        <Row className="expert-interview">
+          <Col lg={4}>
+            <Row className="expert-interview__padding">
+              <img src={expertInterview1} alt=""></img>
+            </Row>
+          </Col>
+          <Col lg={4}>
+            <Row className="expert-interview__padding">
+              <img src={expertInterview2} alt=""></img>
+            </Row>
+          </Col>
+          <Col lg={4}>
+            <Row className="expert-interview__padding">
+              <img src={expertInterview3} alt=""></img>
+            </Row>
+          </Col>
         </Row>
       </Container>
     </div>

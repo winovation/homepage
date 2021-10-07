@@ -69,3 +69,12 @@
 .pr-video {
   margin-top: 160px;
 }
+
+.expert-interview {
+  margin-top: 160px;
+  margin-bottom: 160px;
+}
+
+.expert-interview__padding {
+  padding: 40px 4px;
+}
