@@ -1,9 +1,14 @@
+import { useState } from "react";
 import { Navbar, Nav, Container, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./NavbarTop.css";
 import logo from "../logo.png";
+import CustomModal from "./CustomModal.js";
 
 function NavbarTop() {
+  const [loginAlertShow, setLoginAlertShow] = useState(false);
+  const handleLoginAlertShow = () => setLoginAlertShow(true);
+
   return (
     <div>
       <Navbar ollapseOnSelect expand="lg" bg="light" variant="light">
@@ -33,9 +38,19 @@ function NavbarTop() {
                 <span className="nav-links">Support</span>
               </Nav.Link>
             </Nav>
-            <Button variant="primary" className="btn-primary">
+            <Button
+              variant="primary"
+              className="btn-primary"
+              onClick={handleLoginAlertShow}
+            >
               Login
-            </Button>{" "}
+            </Button>
+            <CustomModal
+              show={loginAlertShow}
+              setShow={setLoginAlertShow}
+              title={"기능 준비 중"}
+              message={"해당 기능은 현재 준비 중입니다."}
+            />
           </Navbar.Collapse>
         </Container>
       </Navbar>
