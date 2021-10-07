@@ -192,3 +192,12 @@ p {
   letter-spacing: 0.5px;
   line-height: 1.5rem;
 }
+
+body {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  letter-spacing: 0.5px;
+  line-height: 1.5rem;
+}
