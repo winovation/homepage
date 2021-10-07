@@ -1,0 +1,23 @@
+@import "../variables.css";
+
+.btn-primary {
+  padding: 8px 30px;
+  color: var(--color-light-text);
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+.btn-primary:hover {
+  background-color: var(--color-dark);
+  border-color: var(--color-dark);
+}
+.btn-primary:focus {
+  background-color: var(--color-dark);
+  border-color: var(--color-dark);
+}
+
+.nav-links {
+  color: var(--color-dark-text);
+}
+.nav-links:hover {
+  color: var(--color-dark);
+}
