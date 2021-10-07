@@ -6,6 +6,7 @@ import NavbarTop from "./components/NavbarTop.js";
 import Home from "./home/Home.js";
 import Footer from "./components/Footer";
 import Product from "./product/Product.js";
+import About from "./about/About.js";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Product />
         </Route>
         <Route exact path="/about/">
-          About Us
+          <About />
         </Route>
         <Route exact path="/support/">
           Support

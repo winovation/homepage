@@ -1,0 +1,21 @@
+.about {
+  padding: 24px;
+}
+
+.about-branding {
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-branding h2 {
+  margin-bottom: 24px;
+  color: var(--color-dark-text);
+}
+
+.about-branding h5 {
+  margin-bottom: 24px;
+  color: var(--color-gray-text);
+  line-height: 2rem;
+}
