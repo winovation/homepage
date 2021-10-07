@@ -22,22 +22,26 @@
 }
 
 .main-text {
-  margin-top: 48px;
+  margin-top: 240px;
+  text-align: center;
+  align-items: center;
 }
 
 .main-text h2 {
   margin-bottom: 24px;
   color: var(--color-dark-text);
+  text-align: left;
 }
 
 .main-text h5 {
   margin-bottom: 24px;
   color: var(--color-gray-text);
   line-height: 2rem;
+  text-align: left;
 }
 
 .product-feature {
-  margin-top: 80px;
+  margin-top: 240px;
   text-align: center;
 }
 
@@ -67,12 +71,12 @@
 }
 
 .pr-video {
-  margin-top: 160px;
+  margin-top: 240px;
 }
 
 .expert-interview {
-  margin-top: 160px;
-  margin-bottom: 160px;
+  margin-top: 240px;
+  margin-bottom: 240px;
 }
 
 .expert-interview__padding {
