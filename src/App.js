@@ -5,6 +5,7 @@ import "./components/NavbarTop.js";
 import NavbarTop from "./components/NavbarTop.js";
 import Home from "./home/Home.js";
 import Footer from "./components/Footer";
+import Product from "./product/Product.js";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           <Home />
         </Route>
         <Route exact path="/product/">
-          Product
+          <Product />
         </Route>
         <Route exact path="/about/">
           About Us
