@@ -7,6 +7,7 @@ import Home from "./home/Home.js";
 import Footer from "./components/Footer";
 import Product from "./product/Product.js";
 import About from "./about/About.js";
+import Support from "./support/Support.js";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
           <About />
         </Route>
         <Route exact path="/support/">
-          Support
+          <Support />
         </Route>
       </Switch>
       <Footer />
