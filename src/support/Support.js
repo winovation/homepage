@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Container } from "react-bootstrap";
 import "./Support.css";
 import MapContainer from "../components/MapContainer.js";
 import ContactForm from "../components/ContactForm.js";

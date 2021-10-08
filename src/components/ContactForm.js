@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
-import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import { Container, Row, Form, Button } from "react-bootstrap";
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("mgerwezo");

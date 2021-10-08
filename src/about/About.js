@@ -118,45 +118,45 @@ function About() {
             </Col>
           </Row>
           <Row>
-            <div class="timeline-outer" data-aos="fade-up">
-              <div class="container" id="content">
-                <ul class="timeline">
-                  <li class="event" data-date="'20.08">
+            <div className="timeline-outer" data-aos="fade-up">
+              <div className="container" id="content">
+                <ul className="timeline">
+                  <li className="event" data-date="'20.08">
                     <h5>주식회사 위노아이(winoi)로 상호 변경</h5>
                     <h5>연세대학교 캠퍼스타운 창업경진대회 선발</h5>
                     <p>∙ 주최</p>
                     <p>&nbsp;&nbsp;&nbsp;연세대학교 캠퍼스타운사업단</p>
                   </li>
-                  <li class="event" data-date="'20.08">
+                  <li className="event" data-date="'20.08">
                     <h5>분석기술 특허등록</h5>
                     <p>∙ 등록번호: 제10-2176490호</p>
                   </li>
-                  <li class="event" data-date="'20.08">
+                  <li className="event" data-date="'20.08">
                     <h5>분석기술 특허출원 (2)</h5>
                     <p>∙ 출원번호: 10-2020-0099628</p>
                   </li>
-                  <li class="event" data-date="'20.04">
+                  <li className="event" data-date="'20.04">
                     <h5>스타트업스쿨 7기 수료</h5>
                     <p>∙ 주최: 충북창조경제혁신센터</p>
                   </li>
-                  <li class="event" data-date="'19.11">
+                  <li className="event" data-date="'19.11">
                     <h5>MG희망나눔 소셜성장 지원사업 선발</h5>
                     <p>∙ 주최</p>
                     <p>&nbsp;&nbsp;&nbsp;MG새마을금고, 함께일하는재단</p>
                   </li>
-                  <li class="event" data-date="'19.10">
+                  <li className="event" data-date="'19.10">
                     <h5>ENNOtank 시즌2 선발</h5>
                     <p>∙ 주최: 서울대학교 공과대학</p>
                     <p>∙ 후원: 현대자동차</p>
                   </li>
-                  <li class="event" data-date="'19.08">
+                  <li className="event" data-date="'19.08">
                     <h5>위노베이션 설립</h5>
                     <h5>분석기술 특허출원</h5>
                     <p>∙ 출원번호: 특허-2019-0102993</p>
                     <h5>제6회 헬로 스타트업 공모전 본선 진출</h5>
                     <p>∙ 주최: 강원창조경제혁신센터</p>
                   </li>
-                  <li class="event" data-date="'19.06">
+                  <li className="event" data-date="'19.06">
                     <h5>예비창업패키지 4차 산업 선정</h5>
                     <p>∙ 주최: 중소벤처기업부</p>
                     <p>∙ 주관기관: 탄소융합기술원</p>
@@ -173,15 +173,15 @@ function About() {
             </Col>
           </Row>
           <Row>
-            <div class="timeline-outer" data-aos="fade-up">
-              <div class="container" id="content">
-                <ul class="timeline">
-                  <li class="event" data-date="'20.09">
+            <div className="timeline-outer" data-aos="fade-up">
+              <div className="container" id="content">
+                <ul className="timeline">
+                  <li className="event" data-date="'20.09">
                     <h5>ENNOtank 데모데이 부스전시 1위</h5>
                     <p>∙ 주최: 서울대학교 공과대학</p>
                     <p>∙ 후원: 현대자동차</p>
                   </li>
-                  <li class="event" data-date="'19.08">
+                  <li className="event" data-date="'19.08">
                     <h5>소셜벤처 경연대회 글로벌 성장부문 권역대회 1등</h5>
                     <p>∙ 주최: 고용노동부</p>
                   </li>
