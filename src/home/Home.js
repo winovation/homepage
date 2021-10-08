@@ -65,8 +65,8 @@ function Home() {
             <img width="30%" height="auto" src={logoDenpic} alt=""></img>
           </Col>
         </Row>
-        <Row className="product-feature">
-          <Col className="product-feature__padding" lg={4}>
+        <Row className="product-feature__center">
+          <Col className="product-feature__center__padding" lg={4}>
             <Row>
               <img src={productFeature1} alt=""></img>
               <h2>전악 촬영</h2>
@@ -76,7 +76,7 @@ function Home() {
               </h5>
             </Row>
           </Col>
-          <Col className="product-feature__padding" lg={4}>
+          <Col className="product-feature__center__padding" lg={4}>
             <Row>
               <img src={productFeature2} alt=""></img>
               <h2>셀프 촬영</h2>
@@ -86,7 +86,7 @@ function Home() {
               </h5>
             </Row>
           </Col>
-          <Col className="product-feature__padding" lg={4}>
+          <Col className="product-feature__center__padding" lg={4}>
             <Row>
               <img src={productFeature3} alt=""></img>
               <h2>일관성</h2>

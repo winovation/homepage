@@ -44,12 +44,12 @@
   margin-top: 60px;
 }
 
-.product-feature {
+.product-feature__center {
   margin-top: 240px;
   text-align: center;
 }
 
-.product-feature img {
+.product-feature__center img {
   width: 50%;
   height: auto;
   margin: 0px auto;
@@ -57,13 +57,13 @@
   box-shadow: var(--box-shadow);
 }
 
-.product-feature h2 {
+.product-feature__center h2 {
   margin-bottom: 24px;
   color: var(--color-dark-text);
   text-align: center;
 }
 
-.product-feature h5 {
+.product-feature__center h5 {
   margin-bottom: 24px;
   color: var(--color-gray-text);
   line-height: 2rem;
