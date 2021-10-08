@@ -65,14 +65,6 @@
   align-items: baseline;
 }
 
-.how-to-use img {
-  width: 100%;
-  height: auto;
-  margin: 0px auto;
-  margin-bottom: 40px;
-  box-shadow: var(--box-shadow);
-}
-
 .how-to-use h2 {
   margin-bottom: 24px;
   color: var(--color-dark-text);
@@ -88,6 +80,13 @@
 
 .how-to-use__padding {
   padding: 120px 40px 0 40px;
+}
+
+.img-width-control {
+  height: auto;
+  margin: 0px auto;
+  margin-bottom: 40px;
+  box-shadow: var(--box-shadow);
 }
 
 .main-features {

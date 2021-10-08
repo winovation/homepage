@@ -73,21 +73,27 @@ function Product() {
         <Row className="how-to-use">
           <Col lg={4}>
             <Row className="how-to-use__padding">
-              <img src={howToUse1} alt=""></img>
+              <div className="img-width-control">
+                <img src={howToUse1} width="50%" alt="" />
+              </div>
               <h2>Step 1</h2>
               <h5>어플리케이션 다운로드 후 회원 가입 진행</h5>
             </Row>
           </Col>
           <Col lg={4}>
             <Row className="how-to-use__padding">
-              <img src={howToUse2} alt=""></img>
+              <div className="img-width-control">
+                <img src={howToUse2} width="100%" alt="" />
+              </div>
               <h2>Step 2</h2>
               <h5>덴픽 연결 후 가이드라인에 맞춰 상/하악 촬영</h5>
             </Row>
           </Col>
           <Col lg={4}>
             <Row className="how-to-use__padding">
-              <img src={howToUse3} alt=""></img>
+              <div className="img-width-control">
+                <img src={howToUse3} width="50%" alt="" />
+              </div>
               <h2>Step 3</h2>
               <h5>분석된 데이터를 실시간으로 확인하여 치아 상태 확인</h5>
             </Row>
@@ -101,13 +107,13 @@ function Product() {
         <Row className="main-features">
           <Col lg={6}>
             <img src={mainFeature1} alt=""></img>
-            <div class="main-features-text">
+            <div className="main-features-text">
               <p>AI 분석을 통한 구강질환&nbsp;</p> <h6>자가 검진이 가능함</h6>
             </div>
           </Col>
           <Col lg={6}>
             <img src={mainFeature2} alt=""></img>
-            <div class="main-features-text">
+            <div className="main-features-text">
               <p>손쉽게&nbsp;</p> <h6>질환의 진행 정도를 파악&nbsp;</h6>
               <p>할 수 있음</p>
             </div>
@@ -115,22 +121,22 @@ function Product() {
         </Row>
         <Row className="main-features">
           <Col lg={4}>
-            <img src={mainFeature3} alt=""></img>
-            <div class="main-features-text">
+            <img src={mainFeature3} width="10%" alt=""></img>
+            <div className="main-features-text">
               <p>정량형광기법(QLF) 기술을 활용하여&nbsp;</p>
               <h6>매일 구강 청결상태 확인 가능함</h6>
             </div>
           </Col>
           <Col lg={4}>
             <img src={mainFeature4} alt=""></img>
-            <div class="main-features-text">
+            <div className="main-features-text">
               <p>분석된 데이터는 서버에 저장되어&nbsp;</p>
               <h6>실시간 비교 및 확인 가능함</h6>
             </div>
           </Col>
           <Col lg={4}>
             <img src={mainFeature5} alt=""></img>
-            <div class="main-features-text">
+            <div className="main-features-text">
               <h6>일관성 있는 데이터 확보</h6>
               <p>가 가능하여&nbsp;</p>
               <h6>분석 정확도를 계속해서 향상</h6>
