@@ -51,7 +51,7 @@
 /*----------*/
 /* Timeline */
 .timeline-outer {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -91,7 +91,7 @@
 }
 
 .timeline .event:before {
-  left: -177.5px;
+  left: -160px;
   color: var(--color-dark-text);
   content: attr(data-date);
   text-align: right;
