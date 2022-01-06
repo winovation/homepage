@@ -15,7 +15,7 @@ function Footer() {
           ⬆️
           <br /> BACK TO TOP
         </Button>
-        <h5>Copyright ⓒ 2021 WINOVATION, All rights reserved.</h5>
+        <h5>Copyright ⓒ 2022 WINOi, All rights reserved.</h5>
       </Row>
     </Container>
   );
